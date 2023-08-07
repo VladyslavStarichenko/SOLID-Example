@@ -1,6 +1,6 @@
 package com.goldsilver.solid.srp.good;
 
-public class NotificationService {
+public class NotificationServiceBad {
 
     public void sendOTP(String medium) {
         if (medium.equals("email")) {
